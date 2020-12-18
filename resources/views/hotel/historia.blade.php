@@ -8,7 +8,10 @@
 
 
     <center><img src=" https://www.revistabuenviaje.com/conocemexico/viajemistico/hotel_california/leyenda_hotel_california.jpg"></center>
-<h5>El origen de lo que hoy conocemos como “hoteles” data de hace más de 2.000 años. En la antigüedad, el servicio de alojamiento se consideraba una obligación social. Se acogía a aquellos viajeros procedentes de otros lugares que no tenían un espacio seguro en el que hospedarse</h5>
+    <center><h5>El origen de lo que hoy conocemos como “hoteles” data de hace más de 2.000 años. <br></br>
+En la antigüedad, el servicio de alojamiento se consideraba una obligación social. <br></br>
+Se acogía a aquellos viajeros procedentes de otros lugares que no tenían un espacio<br></br>
+ seguro en el que hospedarse</h5></center>
     </div>
     <div class="carousel-item" data-bs-interval="2000">
       <img src="..." class="d-block w-100" alt="...">
