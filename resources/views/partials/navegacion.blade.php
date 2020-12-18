@@ -1,5 +1,5 @@
 <!--Navbar -->
-<nav class="mb-1 navbar navbar-expand-lg navbar-dark special-color-dark">
+<nav class="mb-1 navbar navbar-expand-lg navbar-dark bg-dark">
   <a class="navbar-brand" href="{{url('/')}}">
   
   
@@ -21,25 +21,53 @@
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
           <a class="dropdown-item" href="{{url('/hotel/historia')}}">Historia</a>
-          <a class="dropdown-item" href="{{url('/hotel/mision-vision')}}">Misión y Visión</a>
+          <a class="dropdown-item" href="{{url('/hotel/vision')}}">Misión y Visión</a>
           <a class="dropdown-item" href="{{url('/hotel/ubicacion')}}">Ubicación</a>
+    
         </div>
+
+        
       </li>
+
+
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
           aria-haspopup="true" aria-expanded="false">Servicios
         </a>
         <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
           <a class="dropdown-item" href="{{url('/servicios/habitaciones')}}">Habitaciones</a>
-          <a class="dropdown-item" href="{{url('/servicios/eventos/o')}}">Eventos</a>
+       <a class="dropdown-item" href="{{url('/servicios/eventos')}}">Eventos</a>
+
          
         </div>
       </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Clientes
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="{{url('/clientes/visualizar')}}">Visualizar</a>
+          
+
+         
+        </div>
+      </li>
+
+
+
+
+      
       <li class="nav-item">
         <a class="nav-link" href="{{url('/reservas')}}">Reservas</a>
       </li>
+
       <li class="nav-item">
-        <a class="nav-link" href="{{url('/contactanos')}}">Contactos</a>
+        <a class="nav-link" href="{{url('/facturacion')}}">Facturacion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{url('/contactos')}}">Contactos</a>
       </li>
     </ul>
   </div>
