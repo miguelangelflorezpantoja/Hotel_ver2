@@ -41,6 +41,14 @@ class HotelController extends Controller
 
         
     }
+    
+    public function showeventos(){
+
+
+        return view("servicios.eventos"); 
+
+
+    }
 
 
 
