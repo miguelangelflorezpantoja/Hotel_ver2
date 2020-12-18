@@ -2,7 +2,7 @@
     @section('content')
 
 
-<h1>Listado Habitaciones</h1>
+    <center><h1>Habitaciones</h1>  </center>
 <div class="container">
 <div class="row">
 @foreach($habitacion as $p)
