@@ -1,6 +1,5 @@
 @extends('layout.master')
-    @section('content')
-<h1>contactos</h1>
+    @section('content')<h1>Listado contactos</h1>
 
 
 
